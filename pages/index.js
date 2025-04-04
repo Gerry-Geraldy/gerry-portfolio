@@ -63,35 +63,74 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
+        <div className="laptop:mt-20 mt-10 flex flex-col laptop:flex-row items-center gap-10">
+          {/* Bagian Teks (Kiri) */}
+          <div className="laptop:w-1/2 w-full">
             <h1
               ref={textOne}
-              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
+              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold"
             >
               {data.headerTaglineOne}
             </h1>
             <h1
               ref={textTwo}
-              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold"
             >
               {data.headerTaglineTwo}
             </h1>
             <h1
               ref={textThree}
-              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold"
             >
               {data.headerTaglineThree}
             </h1>
             <h1
               ref={textFour}
-              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
+              className="text-2xl tablet:text-3xl laptop:text-4xl laptopl:text-6xl p-1 tablet:p-2 text-bold"
             >
               {data.headerTaglineFour}
             </h1>
           </div>
 
-          {/* <Socials className="mt-2 laptop:mt-5" /> */}
+          {/* Bagian Gambar Portofolio (Kanan) */}
+          <div className="laptop:w-1/2 w-full flex justify-center relative">
+            <img
+              src="/images/Foto Porfolio.png"
+              alt="Portfolio"
+              className="w-[450px] h-auto object-cover grayscale mix-blend-darken drop-shadow-lg"
+              style={{
+                WebkitMaskImage:
+                  "linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)",
+                maskImage:
+                  "linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%)",
+              }}
+            />
+          </div>
+        </div>
+        <div
+          className="mt-10 laptop:mt-32 p-4 flex flex-col laptop:flex-row items-center gap-6"
+          ref={aboutRef}
+        >
+          {/* Bagian Teks */}
+          <div className="flex justify-center relative">
+            <img
+              src="/images/about image.png"
+              alt="Technology Icon"
+              className="w-[550px] h-auto object-contain"
+              style={{
+                maskImage:
+                  "linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0))",
+                WebkitMaskImage:
+                  "linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0))",
+              }}
+            />
+          </div>
+          <div className="laptop:w-1/2 text-center laptop:text-left">
+            <h1 className="text-2xl font-semibold">About</h1>
+            <p className="mt-3 text-md">{data.aboutpara}</p>
+          </div>
+
+          {/* Bagian Gambar dengan efek gradient transparan */}
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
@@ -131,28 +170,7 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div
-          className="mt-10 laptop:mt-32 p-4 flex flex-col laptop:flex-row items-center gap-6"
-          ref={aboutRef}
-        >
-          <div className="laptop:w-1/2 text-center laptop:text-left">
-            <h1 className="text-2xl font-semibold ">
-              About
-            </h1>
-            <p className="mt-3 text-lg ">
-              {data.aboutpara}
-            </p>
-          </div>
 
-          {/* Bagian Gambar */}
-          <div className="flex justify-center">
-            <img
-              src="/images/about image.png"
-              alt="Technology Icon"
-              className="w-[550px] h-auto object-contain"
-            />
-          </div>
-        </div>
         <Footer />
       </div>
     </div>

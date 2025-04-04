@@ -3,7 +3,7 @@ import Socials from "../Socials";
 import Link from "next/link";
 import Button from "../Button";
 
-const Footer = ({}) => {
+const Footer = () => {
   return (
     <>
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
@@ -16,7 +16,13 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               TOGETHER
             </h1>
-            <Button type="primary">Schedule a call</Button>
+            <a
+              href="https://wa.me/085739211076"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button type="primary">Let&apos;s Talk About Project</Button>
+            </a>
             <div className="mt-10">
               <Socials />
             </div>
@@ -24,9 +30,9 @@ const Footer = ({}) => {
         </div>
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
-        Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
+        Created ❤ by{" "}
+        <Link href="https://github.com/Gerry-Geraldy/gerry-portfolio">
+          <a className="underline underline-offset-1">Gerry Geraldi</a>
         </Link>
       </h1>
     </>
