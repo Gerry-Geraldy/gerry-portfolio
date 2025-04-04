@@ -1,1 +1,105 @@
-{"name":"GG","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Gerry Geraldi ","headerTaglineThree":"Designer and front end developer","headerTaglineFour":" Based in Bali, Indonesia.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/Gerry-Geraldy"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/gerry-geraldy-latupeirissa/"},{"id":"5","title":"Email","link":"mailto:whateveritakes10@gmail.com"},{"id":"1ff74ca3-23ee-4c48-a7d4-8413f642a458","title":"Instagram","link":"https://www.instagram.com/geraldylatris/"}],"projects":[{"id":"1","title":"RealnFake.co","description":"Website Fashion Legit Checker  ","imageSrc":"https://i.imgur.com/ebMGKwb.png","url":"https://realnfake.co/user/home"},{"id":"1fb184bb-e611-434f-a799-1df672d8b3d4","title":"Thesis Project  Boarding House Website (Marikost)","description":"Web Accessible Design  For Color Blindnes","imageSrc":"https://i.imgur.com/AXT8NPs.png","url":"https://marikost.netlify.app/user/home"},{"id":"9899f367-7629-4fb6-9c0a-bf726281d29b","title":"Dashboard Admin Project RealnFake.co","description":"Website Fashion Legit Checker ","imageSrc":"https://i.imgur.com/XQeCfDs.png","url":"https://dashboards.realnfake.co/"}],"services":[{"id":"1","title":"Web Development","description":"Building and optimizing websites using HTML, CSS, React, and Next.js to create responsive and engaging user experiences."},{"id":"246111e0-ba4a-402d-b669-e08a521d8cde","title":"API Integration & Collaboration","description":"Experienced in collaborating with backend developers to process and integrate APIs, ensuring efficient data retrieval and display on the frontend."},{"id":"7e70f1ca-35f7-4827-ac6c-8811be3933e0","title":"UI/UX Implementation","description":"Implementing UI/UX designs based on accessibility principles to create visually appealing and user-friendly interfaces."},{"id":"f926d3ea-11d3-4ad8-b509-ffe19183f899","title":"Performance Optimization","description":"Enhancing website performance through techniques like lazy loading, code splitting, and caching, ensuring fast and efficient web applications."},{"id":"507cc037-d4eb-4307-ae6e-38a5a42f6558","title":"State Management","description":"Utilizing React Context, Redux, or Zustand to manage application state efficiently, ensuring data consistency across components."}],"aboutpara":"I specialize in Front-End Development with expertise in React.js, Next.js, responsive web design, API implementation, and SEO optimization. My experience as a freelancer has equipped me with the skills to manage and develop high-quality web solutions. Further details about my qualifications are available in the attached CV, and I look forward to the opportunity to discuss how I can contribute to your company.","resume":{"tagline":"👋  I'm a front developer specialist.","description":"Passionate about crafting seamless, responsive, and visually engaging user experiences with precision and professionalism. 🚀","experiences":[{"id":"1","dates":"March 2","type":"Part Time","position":"Freelance React & Next js Front End Developer","bullets":"Developing responsive and dynamic web applications using React and Next.js,  Optimizing performance and ensuring SEO best practices,  Collaborating with designers and backend developers for seamless integration."},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University Pendidikan Nasional Denpasar","universityDate":"2020-2024","universityPara":"Bachelor of Technology Informarmation (S.Kom)"},"languages":["Javascript","HTML5","CSS","React","Next Js","Node Js"],"frameworks":["Tailwind","Typescript","Eslint"],"others":["Figma","MySql"]}}
+{
+  "name": "GG",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Gerry Geraldi ",
+  "headerTaglineThree": "Designer and front end developer",
+  "headerTaglineFour": " Based in Bali, Indonesia.",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Gerry-Geraldy"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/gerry-geraldy-latupeirissa/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:whateveritakes10@gmail.com"
+    },
+    {
+      "id": "1ff74ca3-23ee-4c48-a7d4-8413f642a458",
+      "title": "Instagram",
+      "link": "https://www.instagram.com/geraldylatris/"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "RealnFake.co",
+      "description": "Website Fashion Legit Checker  ",
+      "imageSrc": "https://i.imgur.com/ebMGKwb.png",
+      "url": "https://realnfake.co/user/home"
+    },
+    {
+      "id": "1fb184bb-e611-434f-a799-1df672d8b3d4",
+      "title": "Thesis Project  Boarding House Website (Marikost)",
+      "description": "Web Accessible Design  For Color Blindnes",
+      "imageSrc": "https://i.imgur.com/AXT8NPs.png",
+      "url": "https://marikost.netlify.app/user/home"
+    },
+    {
+      "id": "9899f367-7629-4fb6-9c0a-bf726281d29b",
+      "title": "Dashboard Admin Project RealnFake.co",
+      "description": "Website Fashion Legit Checker ",
+      "imageSrc": "https://i.imgur.com/XQeCfDs.png",
+      "url": "https://dashboards.realnfake.co/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "Building and optimizing websites using HTML, CSS, React, and Next.js to create responsive and engaging user experiences."
+    },
+    {
+      "id": "246111e0-ba4a-402d-b669-e08a521d8cde",
+      "title": "API Integration & Collaboration",
+      "description": "Experienced in collaborating with backend developers to process and integrate APIs, ensuring efficient data retrieval and display on the frontend."
+    },
+    {
+      "id": "7e70f1ca-35f7-4827-ac6c-8811be3933e0",
+      "title": "UI/UX Implementation",
+      "description": "Implementing UI/UX designs based on accessibility principles to create visually appealing and user-friendly interfaces."
+    },
+    {
+      "id": "f926d3ea-11d3-4ad8-b509-ffe19183f899",
+      "title": "Performance Optimization",
+      "description": "Enhancing website performance through techniques like lazy loading, code splitting, and caching, ensuring fast and efficient web applications."
+    },
+    {
+      "id": "507cc037-d4eb-4307-ae6e-38a5a42f6558",
+      "title": "State Management",
+      "description": "Utilizing React Context, Redux, or Zustand to manage application state efficiently, ensuring data consistency across components."
+    }
+  ],
+  "aboutpara": "I specialize in Front-End Development with expertise in React.js, Next.js, responsive web design, API implementation, and SEO optimization. My experience as a freelancer has equipped me with the skills to manage and develop high-quality web solutions. Further details about my qualifications are available in the attached CV, and I look forward to the opportunity to discuss how I can contribute to your company.",
+  "resume": {
+    "tagline": "👋  I'm a front developer specialist.",
+    "description": "Passionate about crafting seamless, responsive, and visually engaging user experiences with precision and professionalism. 🚀",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2022 - Now",
+        "type": "Part Time",
+        "position": "Freelance React & Next js Front End Developer",
+        "bullets": "Developing responsive and dynamic web applications using React and Next.js,  Optimizing performance and ensuring SEO best practices,  Collaborating with designers and backend developers for seamless integration."
+      }
+    ],
+    "education": {
+      "universityName": "University Pendidikan Nasional Denpasar",
+      "universityDate": "2020-2024",
+      "universityPara": "Bachelor of Technology Informarmation (S.Kom)"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "React", "Next Js", "Node Js"],
+    "frameworks": ["Tailwind", "Typescript", "Eslint"],
+    "others": ["Figma", "MySql"]
+  }
+}
